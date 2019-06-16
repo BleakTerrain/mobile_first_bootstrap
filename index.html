@@ -1,54 +1,100 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <title> Coffee Club</title>
-    <meta name = "viewport" content= "width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <meta charset="UTF-8">
+  <title> Coffee Club </title>
+  <link rel="icon" href="Images/CoffeeCup.jpeg">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
 
 <body>
-  
-  <article class = container>
+
+  <article class="container">
+
     <!-- Call Out -->
-    <section class= callout>
-      <section>
-        <h1>Time to buy some coffee!</h1>
-        <p> Do you feel tired all the time? You should buy some coffee</p>
-      </section>
-      <!--End of Call Out-->
-      <hr>
-      <!--Quotes-->
-      <section class ="quotes">
-        <h2 class= "text-upperclass"> Quotes</h2>
-        <div class="quote">
-          <p>I haven't been tired in months</p>
-          <p>Jane Doe</p>
+
+    <div class="row">
+      <div class="col-12">
+        <section class="callout">
+          <h1>Time to buy some coffee!</h1>
+          <p class="lead"> Do you feel tired all the time? You should buy some coffee. <strong> <s>£19.99 </s> <mark>First month free</mark></strong></p>
+          <p class="text-muted"><small> Warning! Coffee makes can make you anxious </small></p>
+          <button class="btn btn-info btn-sm">Click Me</button>
+        </section>
+      </div>
+    </div>
+    <!--End of Call Out-->
+
+    <hr>
+    <!--Quotes-->
+
+    <section class="quotes">
+
+      <section class="quotes">
+        <div class="row">
+          <div class="col-12">
+            <h2 class="text-uppercase">Quotes:</h2>
           </div>
-          
-          <div class = "quotes">
-            <p>I feel good about this in some way</p>
-            <P>Mr Alright</P>
-            
-            </div>
-      </section>
-      <hr>
-      <!--End of Quotes-->
-      
-    <!--Features -->
-    <section class = "features">
-      <div class = "features">
-        <h3>Feature!</h3>
-        <p> Lorem ipsum dolor sit amet, consectetuer adipiscing elit,
-        sed diam nonummy nibh euismod tincidunt ut laoreet dolore
-        magna aliquam erat volutpat. </p>
         </div>
-        <div class = "features"></div>
-        <h3>Feature 2</h3>
-        <p> Lorem ipsum dolor sit amet, consectetuer adipiscing elit,
-        sed diam nonummy nibh euismod tincidunt ut laoreet dolore
-        magna aliquam erat volutpat. </p>
-    </section>
-    
-    </article>
+        <div class="row">
+          <div class="col-12 col-md-6">
+            <blockquote class="blockquote">
+              <p>I've been introduced to more than 10 great international whiskeys I never knew about.</p>
+              <footer class="blockquote-footer">Jane Doe on <cite title="Twitter">Twitter</cite></footer>
+            </blockquote>
+          </div>
+          <div class="col-12 col-md-6">
+            <blockquote class="blockquote">
+              <p>I haven't been sober for months!</p>
+              <footer class="blockquote-footer">Jane Doe on <cite title="Twitter">Twitter</cite></footer>
+            </blockquote>
+          </div>
+        </div>
+      </section>
+
+      <hr>
+
+
+      <!--End of Quotes-->
+
+      <!--Features -->
+      <section class="features">
+
+        <div class="row">
+          <div class="col-12">
+            <h2 class="text-uppercase">Features!</h2>
+          </div>
+        </div>
+        </div>
+
+        <div class="row">
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="features">
+              <h3 class="text-uppercase">Feature One</h3>
+              <p> Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. </p>
+              <p><a class="btn btn-light btn-sm" href=""> Read more...</a></p>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="features">
+              <h3 class="text-uppercase">Feature Two</h3>
+              <p> Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. </p>
+               <p><a class="btn btn-light btn-sm" href=""> Read more...</a></p>
+            </div>
+          </div>
+          <div class="features">
+            <div class="col-12 d-md-none d-lg-block col-lg-4">
+              <h3 class="text-uppercase">Feature Three</h3>
+              <p> Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. </p>
+               <p><a class="btn btn-light btn-sm" href=""> Read more...</a></p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+  </article>
 </body>
+
 </html>
