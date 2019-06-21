@@ -10,19 +10,38 @@
 </head>
 
 <body>
+  <!-- nav bar -->
+   <nav class= "navbar navbar-light bg-light navbar-expand-sm navbar-fixed-top">
+      <a href ="/" class ="navbar-brand">CoffeeClub</a>
+      <ul class = "navbar-nav mr-auto">
+        <li class = "active nav-item mr-2"><a class = "nav-link" href = "/">Home</a></li>
+        <li class = "nav-item mr-2"><a class = "nav-link" href = "/about">About</a></li>
+         <li class = "nav-item mr-2"><a class = "nav-link" href = "/contact">Contact</a></li>
+         <li class = "nav-item mr-2 d-block d-sm-none"> <a class = "nav-link" href = "/sign in">Sign In/Sign Up</a></li>
+         
+         <div class = "d-none d-md-block">
+         <p class = "navbar-text my-auto mr-2"><i>Great Coffee delivered somewhere!</i></p>
+         <a href = "/login">Sign in/Sign up</a>
+        </div>
+      </ul>
+      
+    </nav>
 
-  <article class="container">
+  <article class="container mt-3">
+   <!--nav ends -->
 
     <!-- Call Out -->
 
     <div class="row">
       <div class="col-12">
-        <section class="callout">
+        <section class="callout jumbotron text-centre">
           <h1>Time to buy some coffee!</h1>
-          <p class="lead"> Do you feel tired all the time? You should buy some coffee. <strong> <s>£19.99 </s> <mark>First month free</mark></strong></p>
+          <p class="lead"> Do you feel tired all the time? You should buy some coffee. 
+          <strong> <s class = "d-none d-sm-inline">£19.99 </s> 
+          <span class = "d-inline d-sm-none"><br></span>
+          <mark>First month free</mark></strong></p>
           <p class="text-muted"><small> Warning! Coffee makes can make you anxious </small></p>
           <button class="btn btn-info btn-sm">Click Me</button>
-          <button class = "btn btn-info btn-lg">NO! CLICK ME</button>
         </section>
       </div>
     </div>
@@ -34,7 +53,7 @@
     <section class="quotes">
 
       <section class="quotes">
-        <div class="row">
+        <div class="row my-5">
           <div class="col-12">
             <h2 class="text-uppercase">Quotes:</h2>
           </div>
@@ -63,7 +82,7 @@
       <!--Features -->
       <section class="features">
 
-        <div class="row">
+        <div class="row my-5">
           <div class="col-12">
             <h2 class="text-uppercase">Features!</h2>
           </div>
@@ -85,8 +104,8 @@
                <p><a class="btn btn-light btn-sm" href=""> Read more...</a></p>
             </div>
           </div>
-          <div class="features">
             <div class="col-12 d-md-none d-lg-block col-lg-4">
+              <div class="features">
               <h3 class="text-uppercase">Feature Three</h3>
               <p> Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. </p>
                <p><a class="btn btn-light btn-sm" href=""> Read more...</a></p>
